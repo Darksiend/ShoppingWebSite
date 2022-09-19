@@ -38,6 +38,7 @@
 }
 /* On image Buttons */
 .on-img-panel {
+  display: none;
   width: 150px;
   height: 50px;
   border: 1px solid red;
@@ -46,9 +47,21 @@
   left: 25%;
 }
 
+.on-img-btn {
+  display: inline-block;
+  width: 46px;
+  height: 47px;
+  border: 1px solid green;
+}
+
 .img-container {
   position: relative;
 }
+
+.img-container:hover .on-img-panel {
+  display: block;
+}
+
 /* Button */
 
 .product-item button {
