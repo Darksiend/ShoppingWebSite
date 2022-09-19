@@ -5,14 +5,23 @@
 
 nav {
   width: 100%;
+<<<<<<< HEAD
   height: 80px;
+=======
+  height: 60px;
+>>>>>>> main
   background-color: black;
   color: white;
 }
 nav i {
+<<<<<<< HEAD
   position: relative;
   top: 20px;
   left: 20px;
+=======
+  padding-top: 13px;
+  padding-left: 13px;
+>>>>>>> main
 }
 
 .logo {
