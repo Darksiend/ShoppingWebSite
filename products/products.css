@@ -9,9 +9,8 @@
   width: 24%;
   height: 520px;
   display: inline-block;
-
   text-align: center;
-  margin-top: 10px;
+  margin: 3px;
   border-radius: 3px;
 }
 .product-item:hover {
@@ -21,8 +20,7 @@
 
 .product-item img {
   height: 330px;
-  width: 80%;
-  padding-top: 15px;
+  width: 100%;
 }
 
 .product-item p {
@@ -38,7 +36,19 @@
   color: gray;
   font-size: 12px;
 }
+/* On image Buttons */
+.on-img-panel {
+  width: 150px;
+  height: 50px;
+  border: 1px solid red;
+  position: absolute;
+  bottom: 50%;
+  left: 25%;
+}
 
+.img-container {
+  position: relative;
+}
 /* Button */
 
 .product-item button {
