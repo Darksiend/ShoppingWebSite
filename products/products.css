@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
   font-family: "Roboto", sans-serif;
@@ -60,6 +60,38 @@
 
 .img-container:hover .on-img-panel {
   display: block;
+}
+
+/* New Circle */
+
+.new-circle {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50%;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 18px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/* Sale Circle */
+
+.sale-circle {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 18px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
 }
 
 /* Button */
